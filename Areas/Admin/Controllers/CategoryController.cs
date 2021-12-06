@@ -116,7 +116,7 @@ namespace Spice.Areas.Admin.Controllers
         }
 
         //GET - DETAILS 
-        public async Task<IActionResult> Details(int id)
+        public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
             {
