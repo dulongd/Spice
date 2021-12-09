@@ -25,10 +25,10 @@
                                 Content Management
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropDownMenuLink">
-                                <a class="dropdown-item" asp-action="Index" asp-controller="Category" asp-area="Admin">Category</a>
-                                <a class="dropdown-item" asp-action="Index" asp-controller="SubCategory" asp-area="Admin">Subcategory</a>
-                                <a class="dropdown-item">Menu Item</a>
-                                <a class="dropdown-item">Coupons</a>
+                                <a class="dropdown-item" asp-action="Index" asp-controller="Category" asp-area="Admin">Categories</a>
+                                <a class="dropdown-item" asp-action="Index" asp-controller="SubCategory" asp-area="Admin">Subcategories</a>
+                                <a class="dropdown-item" asp-action="Index" asp-controller="MenuItem" asp-area="Admin">Menu Items</a>
+                                <a class="dropdown-item" asp-action="Index" asp-controller="Coupon" asp-area="Admin">Coupons</a>
                                 <a class="dropdown-item">Users</a>
                             </div>
                         </li>
@@ -57,6 +57,7 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.tiny.cloud/1/alnrtkzqrwrh2wqr5dzf7qihohd9unojw4mw3oey7cz62a8w/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>
