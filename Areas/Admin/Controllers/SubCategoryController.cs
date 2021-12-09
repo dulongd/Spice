@@ -198,6 +198,8 @@ namespace Spice.Areas.Admin.Controllers
             return View(subCategory);
         }
 
+        //POST - DELETE
+
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
